@@ -1,0 +1,6 @@
+.contact-wrap{padding:20px;background:transparent;margin-top:30px;}
+.contact-wrap.center{display:flex;justify-content:center;align-items:center;min-height:200px;}
+.contact-form{display:flex;flex-direction:column;gap:10px;max-width:420px;width:100%;}
+.contact-form input{padding:10px;border-radius:6px;border:1px solid #ccc;font-size:1rem;}
+.contact-form button{padding:10px;border-radius:6px;border:none;background:var(--primary);color:white;font-weight:700;cursor:pointer;}
+.contact-form .status{margin:6px 0;color:#666;}

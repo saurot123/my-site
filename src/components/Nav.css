@@ -1,0 +1,14 @@
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 20px;
+  background:#222;
+  color:white;
+ /* border-radius:6px;*/
+ border-radius:0;
+}
+.logo{font-weight:bold;font-size:1.2rem;}
+.nav-links{list-style:none;display:flex;gap:15px;margin:0;padding:0;}
+.nav-links a{color:white;text-decoration:none;}
+.nav-links a:hover{color:var(--primary);}

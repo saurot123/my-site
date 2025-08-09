@@ -1,0 +1,35 @@
+{
+  "categories": [
+    { "id": 1, "name": "Jewellery" },
+    { "id": 2, "name": "Gift Items" },
+    { "id": 3, "name": "Home Decor" }
+  ],
+  "products": [
+    { "id": 1, "name": "Necklace Set", "price": "₹499", "image": "https://via.placeholder.com/200", "categoryId": 1 },
+    { "id": 2, "name": "Earrings", "price": "₹199", "image": "https://via.placeholder.com/200", "categoryId": 1 },
+    { "id": 3, "name": "Bracelet", "price": "₹299", "image": "https://via.placeholder.com/200", "categoryId": 1 },
+    { "id": 4, "name": "Ring", "price": "₹149", "image": "https://via.placeholder.com/200", "categoryId": 1 },
+    { "id": 5, "name": "Anklet", "price": "₹249", "image": "https://via.placeholder.com/200", "categoryId": 1 },
+    { "id": 6, "name": "Maang Tikka", "price": "₹349", "image": "https://via.placeholder.com/200", "categoryId": 1 },
+    { "id": 7, "name": "Nose Pin", "price": "₹99", "image": "https://via.placeholder.com/200", "categoryId": 1 },
+    { "id": 8, "name": "Bangles", "price": "₹399", "image": "https://via.placeholder.com/200", "categoryId": 1 },
+
+    { "id": 9, "name": "Decorative Lamp", "price": "₹799", "image": "https://via.placeholder.com/200", "categoryId": 2 },
+    { "id": 10, "name": "Gift Box", "price": "₹349", "image": "https://via.placeholder.com/200", "categoryId": 2 },
+    { "id": 11, "name": "Personalized Mug", "price": "₹299", "image": "https://via.placeholder.com/200", "categoryId": 2 },
+    { "id": 12, "name": "Photo Frame", "price": "₹249", "image": "https://via.placeholder.com/200", "categoryId": 2 },
+    { "id": 13, "name": "Scented Candle", "price": "₹199", "image": "https://via.placeholder.com/200", "categoryId": 2 },
+    { "id": 14, "name": "Soft Toy", "price": "₹599", "image": "https://via.placeholder.com/200", "categoryId": 2 },
+    { "id": 15, "name": "Keychain Set", "price": "₹99", "image": "https://via.placeholder.com/200", "categoryId": 2 },
+    { "id": 16, "name": "Pen Gift Set", "price": "₹199", "image": "https://via.placeholder.com/200", "categoryId": 2 },
+
+    { "id": 17, "name": "Wall Hanging", "price": "₹999", "image": "https://via.placeholder.com/200", "categoryId": 3 },
+    { "id": 18, "name": "Table Vase", "price": "₹449", "image": "https://via.placeholder.com/200", "categoryId": 3 },
+    { "id": 19, "name": "Showpiece", "price": "₹649", "image": "https://via.placeholder.com/200", "categoryId": 3 },
+    { "id": 20, "name": "Photo Wall Clock", "price": "₹899", "image": "https://via.placeholder.com/200", "categoryId": 3 },
+    { "id": 21, "name": "Artificial Plant", "price": "₹349", "image": "https://via.placeholder.com/200", "categoryId": 3 },
+    { "id": 22, "name": "Cushion Cover Set", "price": "₹299", "image": "https://via.placeholder.com/200", "categoryId": 3 },
+    { "id": 23, "name": "Name Plate", "price": "₹799", "image": "https://via.placeholder.com/200", "categoryId": 3 },
+    { "id": 24, "name": "Shelf Decor Item", "price": "₹499", "image": "https://via.placeholder.com/200", "categoryId": 3 }
+  ]
+}
