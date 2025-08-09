@@ -53,7 +53,8 @@ const ContactForm = ({ center = false }) => {
       email: formData.email,
       phone: formData.phone,
       message: formData.query,
-      to_email: CONFIG.DEFAULT_EMAIL,
+      from_email: CONFIG.DEFAULT_EMAIL,
+      to_email:CONFIG.DEFAULT_TO_EMAIL
     };
 
     toast.info('Sending...');
@@ -71,7 +72,7 @@ const ContactForm = ({ center = false }) => {
         setFormData({ name: '', email: '', phone: '', query: '' });
         setErrors({});
       })
-      .catch(() => {
+      .catch((e) => {
         toast.dismiss();
         toast.error('Failed to send. Try again later.');
       });
@@ -129,7 +130,7 @@ const ContactForm = ({ center = false }) => {
         rtl={false}
         pauseOnFocusLoss
         draggable
-        pauseOnHover
+        pauseOnHover={false}
         theme="colored"
       />
     </div>

@@ -5,6 +5,7 @@ const CONFIG = {
   EMAILJS_SERVICE_ID: "service_n66okqg",
   EMAILJS_TEMPLATE_ID: "template_6iws2wl",
   EMAILJS_PUBLIC_KEY: "AL-8n_gKOrI_7OocT",
-  DEFAULT_EMAIL: "saurav9213@gmail.com"
+  DEFAULT_EMAIL: "saurav9213@gmail.com",
+  DEFAULT_TO_EMAIL:"sundar9231@gmail.com"
 };
 export default CONFIG;
