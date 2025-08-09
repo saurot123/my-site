@@ -39,7 +39,10 @@
 .product-card:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
-
+.home-container
+{
+    padding: 30px;
+}
 /* Contact form area */
 .contact-form-wrapper {
   margin-top: auto; /* pushes it down */
