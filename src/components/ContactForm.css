@@ -4,3 +4,4 @@
 .contact-form input{padding:10px;border-radius:6px;border:1px solid #ccc;font-size:1rem;}
 .contact-form button{padding:10px;border-radius:6px;border:none;background:var(--primary);color:white;font-weight:700;cursor:pointer;}
 .contact-form .status{margin:6px 0;color:#666;}
+.error-msg{font-size: 12px;margin:0}
